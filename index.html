@@ -5,12 +5,37 @@
     <title>Monstr</title>
   </head>
   <body>
-    <h1>Monstr Inc.</h1>
-    <div id='create-monster'></div>
-    <div id='monster-container'></div>
+
+    <h1>Monstr Inc.</h1> 
+
+    <h3>Create a New Monster: </h3>
+
+    <div id='create-monster'>
+
+      <form id='new-monster-form'>
+        <label for='monster-name'>
+        </label>
+        <input type='text' class='form-control' id='monster-name' placeholder='Monster Name...'>
+        <label for='monster-age'>
+        </label>
+        <input type="number" class="form-control" id="monster-age" placeholder="Monster Age...">
+        <label for="description">
+        </label>
+        <input type="text" class="form-control" id="monster-description" placeholder="Monster Description...">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </div>
+
+    <div id='monster-container'>
+
+    </div>
+
+    <button id="show-next-50">Next 50 Monsters</button>
+
     <button id="back"><=</button>
     <button id="forward">=></button>
-    <!-- <script src='js/index.js'></script> -->
-    <script src='js/demo.js'></script>
+    <script src='js/index.js'></script>
+    <!-- <script src='js/demo.js'></script> -->
   </body>
 </html>

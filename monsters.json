@@ -6005,6 +6005,36 @@
       "age": 13,
       "description": "131313",
       "id": 1001
+    },
+    {
+      "name": "Bettlejuice",
+      "age": "56",
+      "description": "Just some monster",
+      "id": 1002
+    },
+    {
+      "name": "Another monster",
+      "age": "76",
+      "description": "Another new monster",
+      "id": 1003
+    },
+    {
+      "name": "Gargantua",
+      "age": "5000",
+      "description": "Don't mess with gargantua",
+      "id": 1004
+    },
+    {
+      "name": "Prometheus",
+      "age": "10000",
+      "description": "Got chained to that crag girl",
+      "id": 1005
+    },
+    {
+      "name": "Just checking",
+      "age": "777748484",
+      "description": "testing this add monster function",
+      "id": 1006
     }
   ]
 }
